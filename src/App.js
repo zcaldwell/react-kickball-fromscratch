@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import TeamList from './views/TeamList/TeamList';
+import TeamList from './views/Teams.js/Teams';
+import { NavLink, Route, Switch, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <TeamList />
-    </>
+    <main className="container">
+      <BrowserRouter>
+        <TeamList />
+      </BrowserRouter>
+    </main>
   );
 }
 
