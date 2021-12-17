@@ -1,6 +1,0 @@
-import React from 'react';
-import { fetchPlayers } from '../../services/players';
-
-export default function Team() {
-  return <div></div>;
-}

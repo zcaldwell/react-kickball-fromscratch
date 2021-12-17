@@ -1,6 +1,7 @@
 import './App.css';
-import Teams from './views/Teams.js/Teams';
+import Teams from './views/Teams/Teams.js';
 import { NavLink, Route, Switch, BrowserRouter } from 'react-router-dom';
+import Team from './views/Team/Team.js';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <BrowserRouter>
         <NavLink to="/Teams">Teams</NavLink>
         <Switch>
-          t
+          <Route path="/Teams/:id" component={Team} />
           <Route path="/Teams" component={Teams} />
         </Switch>
       </BrowserRouter>
