@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { fetchTeambyId } from '../../services/teams';
+import { fetchTeamById } from '../../services/teams';
 import TeamDetail from '../../components/TeamDetail';
 
 export default function Team(props) {
@@ -8,7 +8,7 @@ export default function Team(props) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetchTeambyId(props.match.params.id);
+      const data = await fetchTeamById(props.match.params.id);
       setTeam(data[0]);
       console.log(data);
     };
