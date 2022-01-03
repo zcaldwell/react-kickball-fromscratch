@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function TeamDetail({ team }) {
+  console.log(team);
   return (
     <div>
       <h1> {team.name} </h1>
@@ -8,9 +10,11 @@ export default function TeamDetail({ team }) {
         {team.city}, {team.state}
       </h2>
       {team.players.map((player) => (
-        <div key={player.id}>
-          <p key={player.team_id}>{player.name}</p>
-        </div>
+        <li key={player.id}>
+          <Link key={player.team_id} to={`/players/${player.team_id}`}>
+            {player.name}
+          </Link>
+        </li>
       ))}
     </div>
   );
