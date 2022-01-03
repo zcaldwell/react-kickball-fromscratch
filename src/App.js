@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route path="/Teams/:id" component={Team} />
           <Route path="/Teams" component={Teams} />
-          <Route path="/Players/:id" compontent={Player} />
+          <Route path="/Players/:id" component={Player} />
           <Route path="/Players/" component={Players} />
         </Switch>
       </BrowserRouter>

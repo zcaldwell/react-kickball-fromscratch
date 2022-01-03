@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function TeamDetail({ team }) {
-  console.log(team.players);
   return (
     <div>
       <h1> {team.name} </h1>

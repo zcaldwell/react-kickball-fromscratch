@@ -4,11 +4,11 @@ import { fetchPlayerById } from '../../services/players';
 import PlayerDetail from '../../components/PlayerDetail';
 
 export default function Player(props) {
-  const [player, setPlayer] = useState({ player: [] });
-  console.log(player);
+  const [player, setPlayer] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPlayerById(props.match.params.id);
+      console.log(data);
       setPlayer(data[0]);
     };
     fetchData();

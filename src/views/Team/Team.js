@@ -9,8 +9,8 @@ export default function Team(props) {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchTeamById(props.match.params.id);
-      setTeam(data[0]);
       console.log(data);
+      setTeam(data[0]);
     };
     fetchData();
   }, [props]);

@@ -10,7 +10,6 @@ export default function Teams() {
     const fetchData = async () => {
       const data = await fetchTeams();
       setTeams(data);
-      console.log(data);
     };
     fetchData();
   }, []);
