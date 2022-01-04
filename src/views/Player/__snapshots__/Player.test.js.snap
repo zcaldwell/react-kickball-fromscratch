@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render player details 1`] = `
+<div>
+  <div>
+    <h2>
+      Betty Grey
+    </h2>
+    <h3>
+      Shortstop
+    </h3>
+  </div>
+</div>
+`;

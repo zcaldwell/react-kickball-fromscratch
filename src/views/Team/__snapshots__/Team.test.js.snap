@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render player details 1`] = `
+<div>
+  <div>
+    <h1>
+       
+      Stumptown Lumberjacks
+       
+    </h1>
+    <h2>
+      Portland
+      , 
+      OR
+    </h2>
+    <li>
+      <a
+        href="/players/2"
+      >
+        Gary Coolman
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/2"
+      >
+        Terry Cruise
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/2"
+      >
+        Bud E. Guy
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/2"
+      >
+        Buster Rimes
+      </a>
+    </li>
+  </div>
+</div>
+`;

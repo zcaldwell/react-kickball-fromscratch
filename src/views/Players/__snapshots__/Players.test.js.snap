@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Players should display all players 1`] = `
+<div>
+  <div>
+    <div>
+      <ul>
+        <li>
+          <a
+            href="/players/1"
+          >
+            Bennie Jetts
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/12"
+          >
+            Betty Grey
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/7"
+          >
+            Bud E. Guy
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/8"
+          >
+            Buster Rimes
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/9"
+          >
+            Deb E. Downer
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/13"
+          >
+            Dwayne Elizondo Mountain Dew Herbert Camacho
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/15"
+          >
+            Frito P.
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/5"
+          >
+            Gary Coolman
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/2"
+          >
+            Hans Olo
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/10"
+          >
+            Jayne Phonda
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/14"
+          >
+            Joe Bauers
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/11"
+          >
+            Kara Whollot
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/3"
+          >
+            Ron Long
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/4"
+          >
+            Shorty Biggum
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="/players/6"
+          >
+            Terry Cruise
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
