@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Players should display all players 1`] = `
+<div>
+  <div>
+    <li>
+      <a
+        href="/teams/1"
+      >
+        Bridge City Sneakers
+      </a>
+    </li>
+    <li>
+      <a
+        href="/teams/3"
+      >
+        Lakeville Thunderfeet
+      </a>
+    </li>
+    <li>
+      <a
+        href="/teams/4"
+      >
+        Mt. Hoodies
+      </a>
+    </li>
+    <li>
+      <a
+        href="/teams/2"
+      >
+        Stumptown Lumberjacks
+      </a>
+    </li>
+    <li>
+      <a
+        href="/teams/5"
+      >
+        Vancougers
+      </a>
+    </li>
+  </div>
+</div>
+`;
