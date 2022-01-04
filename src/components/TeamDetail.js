@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function TeamDetail({ team }) {
-  console.log(team);
   return (
     <div>
       <h1> {team.name} </h1>

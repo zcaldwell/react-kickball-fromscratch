@@ -9,7 +9,6 @@ export default function Team(props) {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchTeamById(props.match.params.id);
-      console.log(data);
       setTeam(data[0]);
     };
     fetchData();

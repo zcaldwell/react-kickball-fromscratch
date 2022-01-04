@@ -8,7 +8,6 @@ export default function Player(props) {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPlayerById(props.match.params.id);
-      console.log(data);
       setPlayer(data[0]);
     };
     fetchData();
